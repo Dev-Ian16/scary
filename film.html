@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <link rel="stylesheet" href="film.css">
+    <body>
+        <button onmousedown="sound1.play()" id="clickme">Click me</button>
+        <div class="scare"><p>F̷̟̏̎̆͘̕͝r̷̢͍̭̣̝͙̐̏͐͑̃͆̓̔̓̊̒ĭ̴̩̜̗̻̤̱̥͈̜͔͚̳̏̑̉̎̒̆͑e̶͔͌̉n̶̢̡̨̢̳̪̭̲͎͖̝̏͒͝d̴̬͚̤͓̫͐̔̀͋̾̓̂̇̊͑͠ŝ̶̘̻̜̜̠͇̝̱͉̆̅̀ ̸̦̦͔̯̟̥̪̱̭͎̤̀͋̀̍̊̆̈́̅́͑̆̆̄͘F̷͈͇̼̝͘o̵̲̬͉͎̩̟̤̤̘̯̳͊̐͑̀̍́̑̎̋̈̊͒̿̍͝r̴̨̲̬̥̻̔̐̌̎̀͒̆̋̆͐͛̍̕̕̚e̸̜̹̝͊̈́̌́͌̀̕͝v̸̢͚̲̺͎͌̀e̷̡̛̳͎̞͍̙͖̰̻̪̥͓̎͗͑̔̿͛͒̀̑̈́̂́͑͘r̵̭̬̺̲̪̼̱͑́̈́̔́̅́̒͝</p></div>
+       
+        
+    </body>
+    <script>
+        document.getElementById("clickme").addEventListener("click", function(){
+                document.querySelector(".scare").style.display = "flex";
+        })
+        document.getElementById("clickme").addEventListener("click", function(){
+                document.getElementById("clickme").style.display = "none";
+        })
+        document.getElementById("clickme").addEventListener("click", function(){
+                document.querySelector(".jmp").style.display = "flex";
+        })
+        var sound1= new Audio();
+        sound1.src ="scary_sound.mp3"
+    </script>
+
+</html>
