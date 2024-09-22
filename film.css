@@ -240,7 +240,7 @@ body{
 
 #clickme{
     position: relative;
-    top: 650px;
+    top: 300px;
     width: 400px;
     height: 150px;
     left: 350px;
@@ -259,7 +259,7 @@ body{
     color:rgb(231, 27, 27);
     font-size: 220px;
     left: 50px;
-    top: 700px;
+    top: 200px;
     display: none;
     
 }
@@ -274,7 +274,7 @@ body{
 
 #clickme{
     position: relative;
-    top: 800px;
+    top: 400px;
     width: 400px;
     height: 150px;
     left: 300px;
@@ -293,7 +293,7 @@ body{
     color:rgb(231, 27, 27);
     font-size: 250px;
     left: 20px;
-    top: 1000px;
+    top: 300px;
     display: none;
     
 }
@@ -307,7 +307,7 @@ body{
 
 #clickme{
     position: relative;
-    top: 1100px;
+    top: 400px;
     width: 400px;
     height: 150px;
     left: 300px;
@@ -326,7 +326,7 @@ body{
     color:rgb(231, 27, 27);
     font-size: 250px;
     left: 20px;
-    top: 1000px;
+    top: 400px;
     display: none;
     
 }
@@ -340,7 +340,7 @@ body{
 
 #clickme{
     position: relative;
-    top: 900px;
+    top: 500px;
     width: 400px;
     height: 150px;
     left: 300px;
@@ -359,7 +359,73 @@ body{
     color:rgb(231, 27, 27);
     font-size: 250px;
     left: 20px;
-    top: 1300px;
+    top: 500px;
+    display: none;
+    
+}
+}
+@media (max-device-width: 424px )
+{
+body{
+    background: url(pngtree-black-background-blood-splash-blood-background-picture-image_1351647.jpg);
+    background-size: cover;
+}
+
+#clickme{
+    position: relative;
+    top: 600px;
+    width: 400px;
+    height: 150px;
+    left: 300px;
+    border-radius: 50%;
+    font-size: 90px;
+    color: red;
+    background: black;
+    display: flex;
+    
+}
+ 
+.scare{
+    position: relative;
+    width: 1600px;
+    height: 700px;
+    color:rgb(231, 27, 27);
+    font-size: 250px;
+    left: 20px;
+    top: 600px;
+    display: none;
+    
+}
+}
+@media (max-device-width: 400px )
+{
+body{
+    background: url(pngtree-black-background-blood-splash-blood-background-picture-image_1351647.jpg);
+    background-size: cover;
+}
+
+#clickme{
+    position: relative;
+    top: 600px;
+    width: 400px;
+    height: 150px;
+    left: 300px;
+    border-radius: 50%;
+    font-size: 90px;
+    color: red;
+    background: black;
+    display: flex;
+    
+}
+ 
+.scare{
+    position: relative;
+    width: 1600px;
+    height: 700px;
+    color:rgb(231, 27, 27);
+    font-size: 230px;
+    left: 20px;
+    top: 700px;
     display: none;
     
 }
